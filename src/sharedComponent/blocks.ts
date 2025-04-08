@@ -280,59 +280,59 @@ export const looksBlocks = [
     nextStatement: true,
     colour: "#9966ff",
   },
-  {
-    type: "think_for_seconds",
-    message0: "think %1 for %2 seconds",
-    category: "looks",
-    args0: [
-      {
-        type: "field_input",
-        name: "message",
-        text: "Hmm...",
-      },
-      {
-        type: "field_number",
-        name: "seconds",
-        value: 2,
-        min: 0,
-      },
-    ],
-    previousStatement: true,
-    nextStatement: true,
-    colour: "#9966ff",
-  },
-  {
-    type: "think",
-    message0: "think %1",
-    category: "looks",
-    args0: [
-      {
-        type: "field_input",
-        name: "message",
-        text: "Hmm...",
-      },
-    ],
-    previousStatement: true,
-    nextStatement: true,
-    colour: "#9966ff",
-  },
-  {
-    type: "change_size",
-    message0: "change size by %1",
-    category: "looks",
-    args0: [
-      {
-        type: "field_number",
-        name: "size",
-        value: 2,
-        min: -Infinity,
-        max: Infinity,
-      },
-    ],
-    previousStatement: true,
-    nextStatement: true,
-    colour: "#9966ff",
-  }
+  // {
+  //   type: "think_for_seconds",
+  //   message0: "think %1 for %2 seconds",
+  //   category: "looks",
+  //   args0: [
+  //     {
+  //       type: "field_input",
+  //       name: "message",
+  //       text: "Hmm...",
+  //     },
+  //     {
+  //       type: "field_number",
+  //       name: "seconds",
+  //       value: 2,
+  //       min: 0,
+  //     },
+  //   ],
+  //   previousStatement: true,
+  //   nextStatement: true,
+  //   colour: "#9966ff",
+  // },
+  // {
+  //   type: "think",
+  //   message0: "think %1",
+  //   category: "looks",
+  //   args0: [
+  //     {
+  //       type: "field_input",
+  //       name: "message",
+  //       text: "Hmm...",
+  //     },
+  //   ],
+  //   previousStatement: true,
+  //   nextStatement: true,
+  //   colour: "#9966ff",
+  // },
+  // {
+  //   type: "change_size",
+  //   message0: "change size by %1",
+  //   category: "looks",
+  //   args0: [
+  //     {
+  //       type: "field_number",
+  //       name: "size",
+  //       value: 2,
+  //       min: -Infinity,
+  //       max: Infinity,
+  //     },
+  //   ],
+  //   previousStatement: true,
+  //   nextStatement: true,
+  //   colour: "#9966ff",
+  // }
 ];
 
 export const eventBlocks = [
