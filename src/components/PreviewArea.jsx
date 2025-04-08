@@ -1,7 +1,7 @@
 import { useState, useContext, useEffect, useCallback, useRef } from 'react';
 import CatSprite from './CatSprite';
 import Draggable from 'react-draggable';
-import { Flag, Github, RotateCcw, Undo2Icon } from 'lucide-react';
+import { Flag, RotateCcw, Undo2Icon } from 'lucide-react';
 import { GlobalContext } from '../App';
 import { throttle } from 'lodash';
 
@@ -172,9 +172,6 @@ export default function PreviewArea() {
   return (
     <div className="flex-none w-full">
       <div className="flex flex-row p-4 gap-4 justify-between pr-6">
-        <div className='h-8 w-20 flex items-center justify-center'>
-          <img src='/scratch.png' alt="Scratch Logo" className='h-full w-full object-contain' />
-        </div>
         <div className='flex flex-row gap-4 justify-end z-10'>
           {history.length > 0 && (
             <div
@@ -208,13 +205,7 @@ export default function PreviewArea() {
         >
           <StopCircle />
         </div> */}
-          <div
-            onClick={() => window.open("https://github.com/ksanjeeb/MIT-Scratch-Blockly", "_blank")}
-            title='Get the code! - github.com/ksanjeeb'
-            className='cursor-pointer ml-1 bg-gray-200 rounded-xl p-1'
-          >
-            <Github />
-          </div>
+        
         </div>
 
       </div>
